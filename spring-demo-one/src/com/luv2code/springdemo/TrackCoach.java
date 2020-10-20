@@ -7,4 +7,8 @@ public class TrackCoach implements Coach {
 		return "Run few more rounds of 5KM each ";
 	}
 
+	@Override
+	public String getDailyFortune() {
+		return null;
+	}
 }
